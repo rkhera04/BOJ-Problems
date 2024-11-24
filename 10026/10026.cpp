@@ -56,7 +56,7 @@ int main() {
     }
     
     // count num areas for normal vision
-    int normalAreas = countAreas(grid, n);
+    int normalareas = countAreas(grid, n);
     
     // convert the grid
     for (int i = 0; i < n; i++) {
@@ -68,9 +68,9 @@ int main() {
     }
     
     // count areas for red-green color blind vision
-    int colorDeficientAreas = countAreas(grid, n);
+    int colorblindareas = countAreas(grid, n);
     
-    cout << normalAreas << " " << colorDeficientAreas << endl;
+    cout << normalareas << " " << colorblindareas << endl;
     
     return 0;
 }
